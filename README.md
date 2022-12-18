@@ -1,4 +1,4 @@
-# VBA_MultipleMatch_UniqueValue_Paste_Specail_Trim_In_Cell
+# VBA_MultipleMatch_UniqueValue_Paste_special_Trim_In_Cell
 
 -- Task 01
 This function is used for matching multiple values against a single cell instead of True or False results which match only for one criteria.
