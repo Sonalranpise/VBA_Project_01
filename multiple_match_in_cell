@@ -1,0 +1,22 @@
+Function matchmul(x As String, y As String) As String
+
+If y <> "" Then
+x = Trim(x)
+y = Trim(y)
+
+x = LCase(x)
+y = LCase(y)
+
+If InStr(1, x, y) >= 1 Then
+
+matchmul = "Yes"
+Else
+matchmul = "No"
+
+End If
+Else
+matchmul = "No"
+
+End If
+
+End Function
