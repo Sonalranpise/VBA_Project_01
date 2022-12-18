@@ -1,0 +1,10 @@
+Sub Trim()
+'
+' Trim Macro
+'
+
+'
+    ActiveCell.FormulaR1C1 = "=TRIM(RC[-1])"
+    Range("B2:B21").Select
+    Selection.FillDown
+End Sub
