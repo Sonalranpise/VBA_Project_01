@@ -15,4 +15,4 @@ In one cell, get unique values by building formulas
 Remove formula with help of paste speical
 
 -- Task 04
-In Cell Remove all Values
+In Cell Remove extra spaces in between all Values
