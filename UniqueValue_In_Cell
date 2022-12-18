@@ -1,0 +1,25 @@
+Dim dic As Object
+
+Set dic = CreateObject("Scripting.Dictionary")
+
+Dim strArr() As String
+strArr = Split(str, delim)
+
+Dim strPart As Variant
+For Each strPart In strArr
+On Error Resume Next
+dic.Add Trim(strPart), Trim(strPart)
+On Error GoTo 0
+Next strPart
+
+Dim temp As String
+temp = ""
+
+Dim key As Variant
+For Each key In dic
+temp = temp & key & delim
+Next key
+
+UniqueValue = Left(temp, Len(temp) - Len(delim))
+
+End Function
