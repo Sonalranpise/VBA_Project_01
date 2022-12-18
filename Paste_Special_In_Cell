@@ -1,0 +1,6 @@
+Sub Paste_Special()
+    Range("B2:B21").Select
+    Selection.Copy
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+End Sub
